@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* New styles for the components */
+h2 {
+  margin: 20px 0;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.table thead th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table tbody td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table td a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.table td a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.btn-success {
+  margin-left: 10px;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.card-body .row {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .btn {
+    margin: 5px 0;
+  }
+}
+
+/* Custom styles for input groups in the Submissions component */
+.input-group {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Adjustments for buttons in the Submissions component */
+button {
+  margin-left: 10px;
+}
+
+/* Style for the form checkboxes in the table */
+.form-check-input {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* Style for the view details link in the Submissions component */
+.view-details-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-details-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Custom styles for delete button */
+.btn-danger {
+  margin-top: 20px;
+}
+
+/* Custom styles for the single submission view */
+.single-submission-card {
+  margin-top: 20px;
+}
+
+.single-submission-card .row {
+  margin-bottom: 10px;
+}
+
+/* Make form labels and checkbox labels bold */
+form label, .form-check-label {
+  font-weight: bold;
+}
+
+.aromatic-bar {
+  color: #ff5733; 
+  font-weight: bold;
+}
